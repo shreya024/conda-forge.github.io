@@ -8,8 +8,7 @@ A brief introduction
 
 What is conda-forge?
 --------------------
-
-Conda-forge is a community effort that provides conda packages for a wide range of software.
+Conda-forge can be defined as a compilation of distributions, recipes and build infrastructure that makes the task of installing conda packages hassle-free for a wide range of software. It is a single channel that provides all the up-to-date ,compatible versions of conda packages along with all the required dependencies for the conda package manager.
 
 **Missing a package that you would love to install with conda?** - Chances are we have already packaged it for you!
 
