@@ -8,8 +8,7 @@ A brief introduction
 
 What is conda-forge?
 --------------------
-
-Conda-forge is a community effort that provides conda packages for a wide range of software.
+The conda-forge project can be viewed as a compilation of distributions, recipes, and build infrastructure that enables installing and distributing a wide range of software as conda packages. In a single channel, the conda-forge community provides up-to-date, compatible versions of conda packages along with all their required dependencies. Our work is driven by the community to provide packaged software free of charge and in a transparent manner.
 
 **Missing a package that you would love to install with conda?** - Chances are we have already packaged it for you!
 
@@ -21,9 +20,9 @@ You can `search <https://anaconda.org/>`__ for packages online. Look out for pac
 Why conda-forge?
 ----------------
 
-The conda team, from `Anaconda, Inc. <https://anaconda.org/>`__, packages a multitude of packages and provides them to all users free of charge in their ``default`` channel.
+The packaging team from `Anaconda, Inc. <https://anaconda.org/>`__, packages a multitude of packages and provides them to all users free of charge in their ``defaults`` channel.
 
-But what if a package you are looking for is not in the default channel?
+But what if a package you are looking for is not in the ``defaults`` channel?
 In the past users only had the option to create an `Anaconda Cloud <https://anaconda.org/>`__ account and create their own channel.
 
 This came with a list of disadvantages:
@@ -41,7 +40,6 @@ conda-forge is a community effort that tackles these issues:
  - By default, we build packages for macOS, Linux AMD64 and Windows AMD64.
  - Many packages are updated by multiple maintainers with an easy option to become a maintainer.
  - An active core developer team is trying to also maintain abandoned packages.
-
 
 How can I install packages from conda-forge?
 --------------------------------------------
